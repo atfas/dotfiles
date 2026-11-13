@@ -8,7 +8,7 @@ My macOS setup for the terminal (Ghostty + zsh) and VS Code.
 2. Clone this repo and run the install script:
 
    ```bash
-   git clone https://github.com/Atfas/dotfiles.git ~/Documents/dotfiles
+   git clone https://github.com/atfas/dotfiles.git ~/Documents/dotfiles
    cd ~/Documents/dotfiles
    ./install.sh
    ```
