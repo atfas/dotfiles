@@ -1,0 +1,23 @@
+theme = "rosetta"
+
+# Shift + Arrow keys adjust a mouse selection (passed through to the shell otherwise)
+keybind = performable:shift+left=adjust_selection:left
+keybind = performable:shift+right=adjust_selection:right
+keybind = performable:shift+up=adjust_selection:up
+keybind = performable:shift+down=adjust_selection:down
+
+# Select all content
+keybind = super+a=select_all
+
+# Copy selection
+keybind = super+c=copy_to_clipboard
+
+# Paste
+keybind = super+v=paste_from_clipboard
+
+# Scroll to selection
+keybind = super+shift+s=scroll_to_selection
+
+# Cmd + Shift + Left/Right selects to the start/end of the line being typed
+keybind = super+shift+left=text:\x1b[1;2H
+keybind = super+shift+right=text:\x1b[1;2F

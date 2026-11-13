@@ -1,0 +1,23 @@
+# Rosetta Theme (Steven Kustov) — recreated from the VS Code theme's terminal colours
+background = #0b0600
+foreground = #cccccc
+cursor-color = #ffffff
+cursor-text = #0b0600
+selection-background = #484440
+selection-foreground = #e5e5e5
+palette = 0=#000000
+palette = 1=#c01c28
+palette = 2=#0dbc79
+palette = 3=#ffb994
+palette = 4=#12488b
+palette = 5=#bc3fbc
+palette = 6=#2aa1b3
+palette = 7=#e5e5e5
+palette = 8=#666666
+palette = 9=#eb6f92
+palette = 10=#23d18b
+palette = 11=#ff8849
+palette = 12=#2a7bde
+palette = 13=#d670d6
+palette = 14=#33c7de
+palette = 15=#e5e5e5

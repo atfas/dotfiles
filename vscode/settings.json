@@ -1,0 +1,22 @@
+{
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "glassit.alpha": 150,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "haskell.manageHLS": "GHCup",
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "redhat.telemetry.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Rosetta Theme",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, monospace",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "'JetBrains Mono'"
+}

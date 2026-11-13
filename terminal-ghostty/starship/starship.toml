@@ -1,0 +1,30 @@
+add_newline = true
+format = "$username$directory$git_branch$git_status$cmd_duration$line_break$character"
+
+# Colour names (not hex codes) so the prompt follows the current Ghostty theme
+
+[username]
+show_always = true
+format = "[$user]($style)[:](bright-black)"
+style_user = "bold green"
+
+[directory]
+truncation_length = 3
+style = "bold bright-blue"
+
+[git_branch]
+format = "[$branch]($style) "
+style = "magenta"
+
+[git_status]
+format = "[$all_status$ahead_behind]($style) "
+style = "yellow"
+
+[cmd_duration]
+min_time = 2000
+format = "[$duration]($style) "
+style = "bright-black"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
